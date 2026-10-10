@@ -18,6 +18,10 @@
     "CONTRIBUTING.md"
   ],
   "exports": {
+    "./elecom": {
+      "types": "./dist/elecom/index.d.ts",
+      "import": "./dist/elecom/index.js"
+    },
     ".": {
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js"
